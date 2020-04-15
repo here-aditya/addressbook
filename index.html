@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="py-3">
+            <h2>Simple Address Book</h2>
+            <p>
+                1. List Addressess. Keep Name, Email, Street, Zip-Code, City <br>
+                2. Add / Edit Address. 
+            </p>
+        </div>
+
+        <ul class="nav nav-tabs" id="addList" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="list-tab" data-toggle="tab" href="#list" role="tab" aria-controls="home" aria-selected="true">List Address</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="entry-tab" data-toggle="tab" href="#entry" role="tab" aria-controls="profile" aria-selected="false">Add Address</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="addListContent">
+            <div class="tab-pane fade show active" id="list" role="tabpanel" aria-labelledby="list-tab">
+                <div id="incld_1"></div>   
+            </div>
+
+            <div class="tab-pane fade" id="entry" role="tabpanel" aria-labelledby="entry-tab">
+                <div id="incld_2"></div>
+            </div>
+        </div>
+
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">&copy; 2020-ABC Company Name</p>
+            <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Support</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="resources/js/app.js"></script>
+  </body>
+</html>

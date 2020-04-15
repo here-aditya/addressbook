@@ -1,0 +1,23 @@
+{
+  "name": "addressbook",
+  "version": "1.0.0",
+  "description": "Address Book to store Name, Email, City, Street, zip etc",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/here-aditya/addressbook.git"
+  },
+  "author": "Aditya Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/here-aditya/addressbook/issues"
+  },
+  "homepage": "https://github.com/here-aditya/addressbook#readme",
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "jquery": "3.4.1"
+  }
+}

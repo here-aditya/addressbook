@@ -1,0 +1,48 @@
+<div class="row">
+    <div class="col-md-8">
+        <div class="mb-4"></div>
+        <form id="frmAdd">
+            <input type="hidden" name="saveType">
+            <input type="hidden" name="userId">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="firstName">First name</label>
+                    <input type="text" class="form-control" name="firstName" maxlength="60" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="lastName">Last name</label>
+                    <input type="text" class="form-control" name="lastName" maxlength="60" required>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="email" placeholder="you@example.com" maxlength="100" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="address">Street</label>
+                <input type="text" class="form-control" name="street" placeholder="1234 Main St" maxlength="150" required>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5 mb-3">
+                    <label for="country">City</label>
+                    <select class="custom-select d-block w-100" name="city" required>
+                    <option value="">Loading ...</option>
+                    </select>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <label for="zip">Zip</label>
+                    <input type="number" class="form-control" name="zip" placeholder="123456" maxlength="10"required>
+                </div>
+            </div>
+
+            <hr class="mb-4">
+            <div id="divAlert"></div>
+            <button class="btn btn-primary" type="button" id="saveAdd">Save</button>
+            <button class="btn btn-default" type="button" id="cancelAdd">Cancel</button>
+        </form>
+    </div>
+</div>
